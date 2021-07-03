@@ -56,4 +56,4 @@ jobs:
         cd $GITHUB_WORKSPACE/${{matrix.target}}
         git add .
         git commit -m "update$(TZ='Asia/Shanghai' date +@%Y%m%d)"
-        git push --quiet "https://${{ secrets.TOKEN }}@github.com/MrH723/openwrt-packages.git" HEAD:${{matrix.target}}
+        git push --quiet "https://${{ secrets.TOKEN }}@github.com/hzjflying1234/JDDJ-2.git" HEAD:${{matrix.target}}
